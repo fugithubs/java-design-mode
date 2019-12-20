@@ -1,6 +1,6 @@
 package com.example.javadesignmode.custom;
 /**
- * ¾ßÌå¹Û²ìÕß--ÊµÏÖÀà
+ * å…·ä½“è§‚å¯Ÿè€…--å®ç°ç±»
  * @author fuxiaorong-len
  *
  */

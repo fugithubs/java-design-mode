@@ -1,23 +1,23 @@
 package com.example.javadesignmode.custom;
 /**
- * ³éÏóÖ÷Ìâ--½Ó¿Ú
+ * æŠ½è±¡ä¸»é¢˜--æ¥å£
  * @author fuxiaorong-len
  *
  */
 public interface Subject {
 
 	/**
-	 * Ôö¼ÓÒ»¸ö¹Û²ìÕß¶ÔÏó
+	 * å¢åŠ ä¸€ä¸ªè§‚å¯Ÿè€…å¯¹è±¡
 	 * @param observer
 	 */
 	public void attach(Observer observer);
 	/**
-	 * É¾³ıÒ»¸ö¹Û²ìÕß¶ÔÏó
+	 * åˆ é™¤ä¸€ä¸ªè§‚å¯Ÿè€…å¯¹è±¡
 	 * @param observer
 	 */
 	public void detach(Observer observer);
 	/**
-	 * Í¨Öª¸÷¸ö¹Û²ìÕßË¢ĞÂ×Ô¼º
+	 * é€šçŸ¥å„ä¸ªè§‚å¯Ÿè€…åˆ·æ–°è‡ªå·±
 	 */
 	public void notifyObservers();
 }

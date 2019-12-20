@@ -4,7 +4,7 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 /**
- * ¾ßÌåÖ÷Ìâ--ÊµÏÖÀà
+ * å…·ä½“ä¸»é¢˜--å®ç°ç±»
  * @author fuxiaorong-len
  *
  */
@@ -20,21 +20,21 @@ public class ConcreteSubject implements Subject {
 		this.observersVector = observersVector;
 	}
 	/**
-	 * Ôö¼ÓÒ»¸ö¹Û²ìÕß¶ÔÏó
+	 * å¢åŠ ä¸€ä¸ªè§‚å¯Ÿè€…å¯¹è±¡
 	 */
 	@Override
 	public void attach(Observer observer) {
 		observersVector.addElement(observer);
 	}
 	/**
-	 * É¾³ıÒ»¸ö¹Û²ìÕß¶ÔÏó
+	 * åˆ é™¤ä¸€ä¸ªè§‚å¯Ÿè€…å¯¹è±¡
 	 */
 	@Override
 	public void detach(Observer observer) {
 		observersVector.removeElement(observer);
 	}
 	/**
-	 * Í¨Öª¸÷¸ö¹Û²ìÕßË¢ĞÂ×Ô¼º
+	 * é€šçŸ¥å„ä¸ªè§‚å¯Ÿè€…åˆ·æ–°è‡ªå·±
 	 */
 	@Override
 	public void notifyObservers() {

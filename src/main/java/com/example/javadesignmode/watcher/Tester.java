@@ -3,7 +3,7 @@ package com.example.javadesignmode.watcher;
 import java.util.Observer;
 
 /**
- * ²âÊÔÀà
+ * è§‚å¯Ÿè€…æ¨¡å¼-æµ‹è¯•ç±»
  * @author fuxiaorong-len
  *
  */
